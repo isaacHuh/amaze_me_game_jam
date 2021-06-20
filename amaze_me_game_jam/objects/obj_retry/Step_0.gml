@@ -21,3 +21,5 @@ if(scr_within_area(mouse_x, mouse_y, x1, y1+100, x2, y2+100)){
 if(hightlighted1 && mouse_check_button_pressed(mb_left)){
 	game_end();
 }
+
+

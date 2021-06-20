@@ -78,9 +78,9 @@ if(color == green){
 		}
 		if(!audio_is_playing(Green_Gun_Sound)){
 			audio_play_sound(Green_Gun_Sound,0,1)
-			audio_sound_gain(Green_Gun_Sound,1,0);
+			audio_sound_gain(Green_Gun_Sound,0.5,0);
 		}else{
-			audio_sound_gain(Green_Gun_Sound,1,200);
+			audio_sound_gain(Green_Gun_Sound,0.5,200);
 		}
 		shoot_count++;
 	}else{

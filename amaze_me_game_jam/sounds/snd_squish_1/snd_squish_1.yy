@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.15,
+  "volume": 0.35,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "Punch.mp3",
-  "duration": 0.396837,
+  "soundFile": "snd_squish_1",
+  "duration": 1.224478,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "grp_hit_snd",
+    "path": "folders/Sounds/grp_hit_snd.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Punch",
+  "name": "snd_squish_1",
   "tags": [],
   "resourceType": "GMSound",
 }
